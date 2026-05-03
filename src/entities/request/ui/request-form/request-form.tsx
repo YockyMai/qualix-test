@@ -12,7 +12,7 @@ import {
   REQUEST_CATEGORIES_MAP_LABELS
 } from '../../model/request.const'
 import { REQUEST_TYPES } from './request-form.const'
-import { requestFormSchema } from './request-form.shema'
+import { requestFormSchema } from './request-form.schema'
 import type { RequestFormInput, RequestFormProps } from './request-form.types'
 
 export const RequestForm = ({

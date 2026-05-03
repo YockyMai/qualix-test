@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 
 import { $request } from '@/entities/request'
-import { RequestCard } from '@/entities/request/ui/request-card/request-card'
+import { RequestCard } from '@/entities/request'
 import { ROUTES } from '@/shared/router'
 import { Button } from '@/shared/ui/button'
 
