@@ -1,4 +1,4 @@
-import { object, string } from 'yup'
+import { mixed, object, string } from 'yup'
 
 import { REQUEST_CATEGORIES } from '../../model/request.const'
 
@@ -9,7 +9,7 @@ export const requestFormSchema = object({
   description: string()
     .required('Обязательное поле')
     .max(1000, 'Максимальная длина 1000 символов'),
-  category: string()
+  category: mixed()
     .required('Обязательное поле')
     .oneOf(Object.values(REQUEST_CATEGORIES), 'Неверная категория')
 })
