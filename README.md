@@ -1,3 +1,15 @@
+# Тестовое задание для компании qualix
+
+Используемые технологии для ознокомления
+1. Zustand для хранения данных
+2. react-hook-form для валидации данных
+3. yup для построения схемы валдиации
+4. react-router, react, prettier, vite
+5. tailwind для быстрой стилизации
+6. nanoid для генерации уникального ID заявки
+7. @trivago/prettier-plugin-sort-imports для сортировки импортов
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
