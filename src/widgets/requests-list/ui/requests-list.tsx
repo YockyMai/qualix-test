@@ -24,8 +24,8 @@ export const RequestsList = () => {
         <p className='text-center'>Заявок нет</p>
       )}
 
-      <Link to={ROUTES.REQUEST_CREATE}>
-        <Button className='mx-auto mt-5'>Создать заявку</Button>
+      <Link className='mx-auto mt-5 block w-fit' to={ROUTES.REQUEST_CREATE}>
+        <Button>Создать заявку</Button>
       </Link>
     </div>
   )
